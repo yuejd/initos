@@ -170,6 +170,10 @@ Bundle 'c.vim'
 Bundle 'python.vim'
 Bundle 'bash-support.vim'
 Bundle 'ervandew/supertab'
+Bundle 'Gundo'
+map <C-h> :GundoToggle<CR>
+Bundle 'Tagbar'
+map <C-l> :TagbarToggle<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
 filetype plugin indent on
