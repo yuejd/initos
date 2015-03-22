@@ -174,6 +174,8 @@ Bundle 'Gundo'
 map <C-h> :GundoToggle<CR>
 Bundle 'Tagbar'
 map <C-l> :TagbarToggle<CR>
+let g:tagbar_autofocus = 1
+"Bundle 'ctrlp.vim'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
 filetype plugin indent on
