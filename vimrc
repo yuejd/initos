@@ -2,7 +2,7 @@ set ch=1
 set stl=\ [File]\ %F%m%r%h%y[%{&fileformat},%{&fileencoding}]\ %w\ \ %h\ %=\ [Line]\ %l,%c\ %=\ %P
 set ls=2  
 set fileencoding=utf-8
-set fileencodings=ucs-bom,utf-8,gbk,default,latin1
+set fileencodings=utf-8,ucs-bom,gbk,default,latin1
 
 filetype plugin on
 set scr=12
