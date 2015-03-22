@@ -14,12 +14,10 @@
 set -o nounset                              # Treat unset variables as an error
 
 SCRIPT=$(readlink -f "$0")
-echo $SCRIPT
 SCRIPTPATH=$(dirname "$SCRIPT")
-echo $SCRIPTPATH
 
-ln -s ${$SCRIPTPATH}/vim ~/.vim
-ln -s ${$SCRIPTPATH}/vimrc ~/.vimrc
-ln -s ${$SCRIPTPATH}/tmux.conf ~/.tmux.conf
+ln -s ${SCRIPTPATH}/vim ~/.vim
+ln -s ${SCRIPTPATH}/vimrc ~/.vimrc
+ln -s ${SCRIPTPATH}/tmux.conf ~/.tmux.conf
 [[ -f ~/.bashrc ]] && { mv ~/.bashrc ~/.bashrc_back }
-ln -s ${$SCRIPTPATH}/bashrc ~/.bashrc
+ln -s ${SCRIPTPATH}/bashrc ~/.bashrc
