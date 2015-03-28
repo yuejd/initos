@@ -176,6 +176,10 @@ Bundle 'Tagbar'
 map <C-l> :TagbarToggle<CR>
 let g:tagbar_autofocus = 1
 "Bundle 'ctrlp.vim'
+Bundle 'actionscript.vim'
+augroup filetypedetect
+  au! BufNewFile,BufRead *.as setf actionscript
+augroup END
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
 filetype plugin indent on
