@@ -21,3 +21,5 @@ ln -s ${SCRIPTPATH}/vimrc ~/.vimrc
 ln -s ${SCRIPTPATH}/tmux.conf ~/.tmux.conf
 [ -e ${HOME}/.bashrc ] && mv ~/.bashrc ~/.bashrc_back
 ln -s ${SCRIPTPATH}/bashrc ~/.bashrc
+
+echo "completed"
