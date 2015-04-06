@@ -1,7 +1,7 @@
 set ch=1
 set stl=\ [File]\ %F%m%r%h%y[%{&fileformat},%{&fileencoding}]\ %w\ \ %h\ %=\ [Line]\ %l,%c\ %=\ %P
 set ls=2  
-set fileencoding=utf-8
+"set fileencoding=utf-8
 set fileencodings=utf-8,ucs-bom,gbk,default,latin1
 
 filetype plugin on
