@@ -33,6 +33,9 @@ set smartindent
 set backspace=indent,start
 imap <C-l> <Esc>la
 imap <C-h> <Esc>ha
+set foldmethod=indent
+set foldlevel=90
+nnoremap <space> za
 
 au FileType css,scss,html,vim,javascript setl shiftwidth=2
 au FileType css,scss,html,vim,javascript setl tabstop=2
@@ -114,6 +117,19 @@ let g:C_Ctrl_j   = 'off'
 """"""""""""""vim-powerline"""""""""""""""""""""""""
 ""let g:Powerline_symbols='unicode'
 
+""""""""""""""SimpylFold"""""""""""""""""""""""""""
+let g:SimpylFold_docstring_preview=1
+
+"""""""""""""""virtualenv"""""""""""""""""""""""""""""
+py << EOF
+import os
+import sys
+if 'VIRTUAL_ENV' in os.environ:
+  project_base_dir = os.environ['VIRTUAL_ENV']
+  activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
+  execfile(activate_this, dict(__file__=activate_this))
+EOF
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
 "Python comment
 function InsertPythonComment()
@@ -180,6 +196,7 @@ Bundle 'actionscript.vim'
 augroup filetypedetect
   au! BufNewFile,BufRead *.as setf actionscript
 augroup END
+Bundle 'SimpylFold'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
 filetype plugin indent on
