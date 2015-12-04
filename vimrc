@@ -16,6 +16,7 @@ set si
 syntax enable
 set showmatch
 set cursorline
+set cursorcolumn
 set clipboard=unnamed
 set mouse=a
 set selection=exclusive
