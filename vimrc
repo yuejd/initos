@@ -18,9 +18,9 @@ set showmatch
 set cursorline
 set cursorcolumn
 set clipboard=unnamed
-set mouse=a
+"set mouse=a
 set selection=exclusive
-set selectmode=mouse,key
+"set selectmode=mouse,key
 set magic
 "set smarttab
 set lbr
