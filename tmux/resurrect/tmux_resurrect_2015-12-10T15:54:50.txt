@@ -1,0 +1,12 @@
+pane	0	1	:bash	0	:	1	:/home/jiadi	1	bash	:
+pane	0	2	:vi	1	:*	1	:/home/jiadi/space/config/initos	1	ssh	:ssh root@10.108.106.66
+pane	0	3	:ssh	0	:-	1	:/home/jiadi	1	bash	:
+pane	test	1	:ssh	0	:-	1	:/home/jiadi/space/config/initos	1	bash	:
+pane	test	2	:man	1	:*	1	:/home/jiadi/space/config/initos	1	bash	:
+pane	test	2	:man	1	:*	2	:/usr/share/man	0	bash	:
+window	0	1	0	:	b61e,207x61,0,0,1
+window	0	2	1	:*	b61f,207x61,0,0,2
+window	0	3	0	:-	b620,207x61,0,0,3
+window	test	1	0	:-	b621,207x61,0,0,4
+window	test	2	1	:*	6024,207x61,0,0{103x61,0,0,5,103x61,104,0,6}
+state	0	test
