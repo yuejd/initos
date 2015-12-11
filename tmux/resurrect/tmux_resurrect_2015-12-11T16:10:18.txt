@@ -1,0 +1,29 @@
+pane	daily	1	:bash	1	:!*	1	:/home/jiadi	0	bash	:
+pane	daily	1	:bash	1	:!*	2	:/home/jiadi/space/emc/share	0	bash	:
+pane	daily	1	:bash	1	:!*	3	:/home/jiadi/space/pkgs	1	bash	:
+pane	daily	2	:bash	0	:-	1	:/home/jiadi	1	bash	:
+pane	nwc	1	:python3.4	1	:*	1	:/home/jiadi/space/develop/spring	1	python3.4	:/home/jiadi/.virtualenvs/haha/bin/python3.4 /home/jiadi/.virtualenvs/haha/bin/pip install -r pip_freeze
+pane	sles-vplex	1	:lxh2ser5	1	:*	1	:/home/jiadi	0	ssh	:ssh root@10.108.106.99
+pane	sles-vplex	1	:lxh2ser5	1	:*	2	:/home/jiadi	0	ssh	:ssh root@10.108.106.99
+pane	sles-vplex	1	:lxh2ser5	1	:*	3	:/home/jiadi	1	ssh	:ssh root@10.108.106.99
+pane	sles-vplex	2	:lxh8ser7	0	:-	1	:/home/jiadi	0	ssh	:ssh root@10.108.106.66
+pane	sles-vplex	2	:lxh8ser7	0	:-	2	:/home/jiadi	1	ssh	:ssh root@10.108.106.66
+pane	sles-vplex	2	:lxh8ser7	0	:-	3	:/home/jiadi	0	ssh	:ssh root@10.108.106.66
+pane	switch	1	:fid40	1	:!*	1	:/home/jiadi	1	bash	:
+pane	switch	2	:fid5	0	:!	1	:/home/jiadi	1	bash	:
+pane	switch	3	:fid10	0	:!	1	:/home/jiadi	1	bash	:
+pane	switch	4	:cd98	0	:!	1	:/home/jiadi	1	bash	:
+pane	switch	5	:hp100	0	:!	1	:/home/jiadi	1	bash	:
+pane	switch	6	:cisco	0	:!-	1	:/home/jiadi	1	bash	:
+window	daily	1	1	:!*	a8e1,207x61,0,0{98x61,0,0,0,108x61,99,0[108x30,99,0,1,108x30,99,31,10]}
+window	daily	2	0	:-	5b48,207x61,0,0,19
+window	nwc	1	1	:*	5b47,207x61,0,0,18
+window	sles-vplex	1	1	:*	0841,197x51,0,0{98x51,0,0,3,98x51,99,0[98x25,99,0,5,98x25,99,26,7]}
+window	sles-vplex	2	0	:-	54b8,207x61,0,0{103x61,0,0,4,103x61,104,0[103x30,104,0,8,103x30,104,31,9]}
+window	switch	1	1	:!*	5b50,197x51,0,0,11
+window	switch	2	0	:!	5b41,207x61,0,0,12
+window	switch	3	0	:!	5b42,207x61,0,0,13
+window	switch	4	0	:!	5b43,207x61,0,0,14
+window	switch	5	0	:!	5b44,207x61,0,0,15
+window	switch	6	0	:!-	5b45,207x61,0,0,16
+state	nwc	daily

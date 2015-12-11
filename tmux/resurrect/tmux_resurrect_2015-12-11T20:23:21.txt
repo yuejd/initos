@@ -1,0 +1,32 @@
+pane	daily	1	:bash	0	:-	1	:/home/jiadi	1	bash	:
+pane	daily	1	:bash	0	:-	2	:/home/jiadi/space/config/initos	0	bash	:
+pane	daily	1	:bash	0	:-	3	:/home/jiadi	0	bash	:
+pane	daily	2	:bash	1	:*	1	:/home/jiadi	1	bash	:
+pane	nwc	1	:python	0	:-	1	:/home/jiadi/space/develop/spring	1	bash	:
+pane	nwc	1	:python	0	:-	2	:/home/jiadi/space/develop/spring	0	python	:python manage.py runserver 0.0.0.0:8000
+pane	nwc	2	:bash	1	:*	1	:/home/jiadi/space/develop/spring	1	bash	:
+pane	sles-vplex	1	:lxh2ser5	0	:-	1	:/home/jiadi	0	ssh	:ssh root@10.108.106.99
+pane	sles-vplex	1	:lxh2ser5	0	:-	2	:/home/jiadi	0	ssh	:ssh root@10.108.106.99
+pane	sles-vplex	1	:lxh2ser5	0	:-	3	:/home/jiadi	1	ssh	:ssh root@10.108.106.99
+pane	sles-vplex	2	:lxh8ser7	1	:*	1	:/home/jiadi	0	ssh	:ssh root@10.108.106.66
+pane	sles-vplex	2	:lxh8ser7	1	:*	2	:/home/jiadi	1	ssh	:ssh root@10.108.106.66
+pane	sles-vplex	2	:lxh8ser7	1	:*	3	:/home/jiadi	0	ssh	:ssh root@10.108.106.66
+pane	switch	1	:fid40	1	:*	1	:/home/jiadi	1	bash	:
+pane	switch	2	:fid5	0	:-	1	:/home/jiadi	1	bash	:
+pane	switch	3	:fid10	0	:	1	:/home/jiadi	1	bash	:
+pane	switch	4	:cd98	0	:	1	:/home/jiadi	1	bash	:
+pane	switch	5	:hp100	0	:	1	:/home/jiadi	1	bash	:
+pane	switch	6	:cisco	0	:	1	:/home/jiadi	1	bash	:
+window	daily	1	0	:-	d05a,234x58,0,0{112x58,0,0,1,121x58,113,0[121x28,113,0,2,121x29,113,29,3]}
+window	daily	2	1	:*	cf61,234x58,0,0,4
+window	nwc	1	0	:-	5265,234x58,0,0[234x48,0,0,19,234x9,0,49,5]
+window	nwc	2	1	:*	e7e0,234x58,0,0,21
+window	sles-vplex	1	0	:-	d4bf,207x61,0,0{103x61,0,0,6,103x61,104,0[103x30,104,0,7,103x30,104,31,8]}
+window	sles-vplex	2	1	:*	be43,207x61,0,0{103x61,0,0,9,103x61,104,0[103x30,104,0,10,103x30,104,31,11]}
+window	switch	1	1	:*	67e1,234x58,0,0,12
+window	switch	2	0	:-	67e2,234x58,0,0,13
+window	switch	3	0	:	67e3,234x58,0,0,14
+window	switch	4	0	:	67e4,234x58,0,0,15
+window	switch	5	0	:	67e5,234x58,0,0,16
+window	switch	6	0	:	67e6,234x58,0,0,17
+state	switch	daily
