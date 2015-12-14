@@ -34,9 +34,9 @@ set smartindent
 set backspace=indent,start
 imap <C-l> <Esc>la
 imap <C-h> <Esc>ha
-set foldmethod=indent
-set foldlevel=90
-nnoremap <space> za
+"set foldmethod=indent
+"set foldlevel=90
+"nnoremap <space> za
 
 au FileType css,scss,html,vim,javascript setl shiftwidth=2
 au FileType css,scss,html,vim,javascript setl tabstop=2
@@ -197,7 +197,7 @@ Bundle 'actionscript.vim'
 augroup filetypedetect
   au! BufNewFile,BufRead *.as setf actionscript
 augroup END
-Bundle 'SimpylFold'
+"Bundle 'SimpylFold'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
 filetype plugin indent on
