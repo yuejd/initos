@@ -1,48 +1,3 @@
-cp -rf /mnt/EMCPower.HPUX.PI.5.2.GA.b577.tar ./pkg/
-cp -rf /mnt/EMCPower.HPUX.PI.5.2_p05.b002.tar ./pkg/
-cp -rf /mnt/bash ./pkg/
-mkdir pkg/v2_lvm_patch
-cp /mnt/patches/hpux_11.23_09090931.tgz pkg/v2_lvm_patch/
-ll
-cd pkg/
-ll
-cd v2_lvm_patch/
-ll
-cd ..
-ls
-sudo cp /mnt/patches/hpux_11.23_09090931.tgz pkg/v2_lvm_patch/
-cp -rf /mnt/v5.0 pkg/
-cp -rf /mnt/sfha-hpux1123-5.0MP2RP3-patches pkg/
-cp -rf /mnt/sfha605_path pkg/
-ls pkg/
-ll pkg/
-ls
-cd pkg/
-ls
-ll
-cd bash/
-ls
-cd ..
-ls
-ll /mnt/
-ll
-cd 
-cd /share
-ls
-history 
-ifconfig
-ls
-dpkg -l | grep ncurse
-cd ..
-ls
-cd ..
-ls
-cd space/config/initos/
-ls
-cd tmux/resurrect/pane_contents/
-ls
-cd ..
-ls
 cd pane_contents/
 ls
 cd ..
@@ -998,3 +953,48 @@ sftp
 sftp ia_sfhaftp@216.10.195.38
 ftp ia_sfhaftp@216.10.195.38
 ftp
+ping http://192.241.209.203:838
+ping 172.17.0.2
+nc 172.17.0.2 8888
+sudo ufw status
+df 
+df -h
+sudo docker images --help
+ssh root@172.17.0.2
+ssh jiadi@172.17.0.2
+cd
+sudo docker ps
+ssh jiadi@172.17.0.2
+sudo docker run --help
+whereis sleep
+sudo docker ps
+ssh jiadi@172.17.0.2
+vim --version
+locale 
+sudo docker ps 
+sudo docker images
+cd space/tmp/docker-vim/
+ls
+cd vim
+ls
+cat Dockerfile 
+ls
+cd
+ls
+cd space/emc/share/tmp/
+ls
+vi pathogen.vim
+ls
+cd ../../../develop/nwc2/
+ls
+vi Dockerfile
+vi Dockerfile 
+sudo docker images
+ls
+sudo docker build -t yuejd/tornado .
+vi Dockerfile 
+sudo docker build -t yuejd/tornado .
+sudo docker images
+sudo docker ps
+vi Dockerfile 
+ls

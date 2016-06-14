@@ -1,237 +1,3 @@
-ls
-cd script/
-ls
-cd ..
-ls
-mkdir pkg
-cp -rf /mnt/emcgrab/emcgrab_HP-UX_v4.6.0.tar ./pkg/
-cp -rf /mnt/EMCPower.HPUX.PI.5.2.GA.b577.tar ./pkg/
-cp -rf /mnt/EMCPower.HPUX.PI.5.2_p05.b002.tar ./pkg/
-cp -rf /mnt/bash ./pkg/
-mkdir pkg/v2_lvm_patch
-cp /mnt/patches/hpux_11.23_09090931.tgz pkg/v2_lvm_patch/
-ll
-cd pkg/
-ll
-cd v2_lvm_patch/
-ll
-cd ..
-ls
-sudo cp /mnt/patches/hpux_11.23_09090931.tgz pkg/v2_lvm_patch/
-cp -rf /mnt/v5.0 pkg/
-cp -rf /mnt/sfha-hpux1123-5.0MP2RP3-patches pkg/
-cp -rf /mnt/sfha605_path pkg/
-ls pkg/
-ll pkg/
-ls
-cd pkg/
-ls
-ll
-cd bash/
-ls
-cd ..
-ls
-ll /mnt/
-ll
-cd 
-cd /share
-ls
-history 
-ifconfig
-ls
-dpkg -l | grep ncurse
-cd ..
-ls
-cd ..
-ls
-cd space/config/initos/
-ls
-cd tmux/resurrect/pane_contents/
-ls
-cd ..
-ls
-cd pane_contents/
-ls
-cd ..
-ls
-cd ..
-ls
-cd pu
-cd plugins/
-ls
-cd tmux-resurrect/
-ls
-vi README.md 
-ls
-cd ..
-ls
-cd tmux-continuum/
-ls
-vi README.md 
-cd docs/
-ls
-cat automatic_start.md 
-ls
-vi automatic_start.md 
-ls
-cd ..
-cd docs/
-ls
-cat faq.md 
-cd ../../../
-ls
-cd ..
-ls
-ps -ef | grep python
-cd space/pkgs/
-ls
-apt-cache search ncurses | more
-sudo apt-get install lib64ncurses5
-sudo apt-get install lib64ncurses5-dev
-dpkg -l | grep -i gcc | more
-sudo apt-get install gcc
-cd
-cat /space/config/initos/tmux.conf 
-vi .tmux.conf 
-ls
-cd space/develop/spring/
-ls
-git log
-ls
-vi README.md 
-cd forests/
-ls
-vi server_urls.py 
-cd /space/develop/
-ls
-workon haha
-ls
-deactivate 
-lsvirtualenv 
-workon haha
-deactivate 
-ls
-apt-cache ncurses
-apt-cache search ncurses
-apt-cache search ncurses-dev
-apt-cache search ncurses-devel
-sudo apt-get install ncurses-devel
-pip install readline
-workon haha
-pip install readline
-deactivate 
-dpkg -l | grep python
-dpkg -l | grep python3
-apt-cache search python3-dev
-sudo apt-get install python-dev
-sudo apt-get install python3-dev
-pip install readline
-dpkg -l | grep ncurse
-apt-cache search ncurses
-apt-cache search ncurses-dev
-dpkg -l | grep ncurse
-dpkg -l | grep curse
-sudo apt-get install curses
-sudo apt-get install ncurses
-dpkg -l | grep ncurses
-dpkg --get-selections | grep ncurse
-pip install readline
-dpkg -l | grep gcc
-sudo apt-cache gnu-gcc
-sudo apt-cache search gnu-gcc
-workon haha
-ls
-pip install readline
-deactivate 
-pip install readline
-pip install ipython
-sudo pip install ipython
-ipython
-workon haha
-ipython
-pip install ipython
-ipython
-deactivate 
-mkvirtualenv test
-deactivate 
-mkvirtualenv -p /usr/bin/python3.4 test
-workon test
-ipython
-pip install ipython
-ipython
-pip uninstall ipython
-ipython
-deactivate 
-rmvirtualenv test
-pip uninstall ipython
-sudo pip uninstall ipython
-mkvirtualenv -p /usr/bin/python3.4 test
-pip install ipython
-ipython
-deactivate 
-rmvirtualenv 
-rmvirtualenv test
-lsvirtualenv 
-workon haha
-ipython
-deactivate 
-ls
-git clone https://github.com/humw/spring.git
-ls
-cd spring/
-ls
-git status
-git log
-git branch
-workon 
-workon haha
-git branch -a
-git checkout -b haha
-git branch 
-git branch -a
-ls
-python manage.py 
-pip install -r pip_freeze 
-cat /home/jiadi/.pip/pip.log 
-apt-cache search pygraphviz
-sudo apt-get install python-pygraphviz
-pip install -r pip_freeze 
-vi pip_freeze 
-pip install -r pip_freeze 
-dpkg -l | grep pygraphviz
-deactivate 
-mkvirtualenv test
-pip install pygraphviz
-deactivate 
-dpkg -l | grep pygraphviz
-apt-cache search pygraphviz
-apt-cache search graphviz 
-sudo apt-get install graphviz libgraphviz-dev pkg-config
-workon test
-pip install pygraphviz
-deactivate 
-workon haha
-pip install -r pip_freeze 
-ls
-python manage.py 
-python manage.py runserver
-python manage.py migrate
-ls
-python manage.py runserver 0.0.0.0:8000
-ssh root@10.108.106.99
-ssh user_vplexa@10.108.104.123 
-ssh admin@10.108.104.123 
-ssh user_vplexb@10.108.104.122
-ssh admin@10.108.104.122
-ssh user_vplexb@10.108.104.122
-ssh admin@10.108.104.122
-ssh root@10.108.106.99
-ssh root@10.108.106.99
-ssh root@10.108.106.66
-ssh root@10.108.106.66
-ssh cd@10.103.116.49 
-ssh hp@10.108.179.33 
-ssh emc@10.108.104.13 
 ssh hp@10.108.179.33 
 ssh root@10.108.106.66
 ssh emc@10.108.104.13
@@ -239,7 +5,7 @@ ls
 cat /space/emc/project/switches 
 ssh root@10.108.104.124
 ssh user_platform@10.108.104.124
-history -r '/home/jiadi/.tmux/resurrect/bash_history-daily:1.1'; clear
+history -r '/home/jiadi/.tmux/resurrect/bash_history-daily:1.2'; clear
 su -
 sudo passwd root
 ifconfig
@@ -939,62 +705,296 @@ ssh root@10.108.106.66
 exit
 history -r '/home/jiadi/.tmux/resurrect/bash_history-0:1.1'; clear
 exit
-cd /mnt/
-ls
-cd bash/
-ls
-cd etc/
-ls
-cd ..
-ls
-cd ..
-ls
-ls | grep bash
-ls | grep -i bash
-ls
-cd patches
-ls
-cd ..
-ls
-cd scripts/
-ls
-df
-umount /mnt 
-sudo umount /mnt
-cd
-sudo umount /mnt
-df
-vi .vimrc 
-cd space/config/initos/
-ls
-git status
-git add .
-git status
-git commit  -m "fold modified"
-git push
-ping 10.108.178.59
-ping 10.246.32.210
-ping 10.108.178.150
-ping 10.108.178.151
-ping 10.108.178.152
-ping 10.108.178.153
-'sftp ia_sfhaftp@sftp.veritas.com
-sftp ia_sfhaftp@sftp.veritas.com
-ftp 216.10.195.38
-sftp ia_sfha@sftp.veritas.com
-ftp ia_sfha@216.10.195.38
 ls
 cd 
+cd /share
 ls
-cat savebuffer_test 
-vi savebuffer_test 
-vi .tmux.conf 
-traceroute6
-man trace
-man traceroute6
-ping www.baidu.com
-cat /etc/network/interfaces
-ping www.google.com
-man ping
-ping -D www.google.com.
-ping -D www.google.com
+cd hpux/
+ls
+cd script/
+ls
+cd ..
+ls
+mkdir pkg
+pwd
+ll
+cd ..
+ls
+ll
+cd ..
+ls
+chown --hlep
+chown --help
+chown -hR jiadi /share
+sudo chown -hR jiadi /share
+chgrp -hR jiadi /share
+cd share
+ls
+cd ..
+chmod 777 /share
+cd /s
+ls
+cd /share
+ls
+ll
+cd ..
+ll
+cd share
+ls
+ll
+chown -hR jiadi /home/jiadi/space/emc/share
+sudo chown -hR jiadi /home/jiadi/space/emc/share
+ll
+chgrp -hR jiadi /home/jiadi/space/emc/share
+ll
+chmod 777 /home/jiadi/space/emc/share/
+ll
+chmod 777 /home/jiadi/space/emc/share
+ll
+chmod 777 -r /home/jiadi/space/emc/share
+chmod -r 777 /home/jiadi/space/emc/share
+chomd
+chmod
+chmod --help
+man chmod
+chmod -R 777 /home/jiadi/space/emc/share
+ll
+cd ..
+ll
+cd /share
+ls
+cd hpux/
+ls
+cd script/
+ls
+cd ..
+ls
+mkdir pkg
+cp -rf /mnt/emcgrab/emcgrab_HP-UX_v4.6.0.tar ./pkg/
+cp -rf /mnt/EMCPower.HPUX.PI.5.2.GA.b577.tar ./pkg/
+cp -rf /mnt/EMCPower.HPUX.PI.5.2_p05.b002.tar ./pkg/
+cp -rf /mnt/bash ./pkg/
+mkdir pkg/v2_lvm_patch
+cp /mnt/patches/hpux_11.23_09090931.tgz pkg/v2_lvm_patch/
+ll
+cd pkg/
+ll
+cd v2_lvm_patch/
+ll
+cd ..
+ls
+sudo cp /mnt/patches/hpux_11.23_09090931.tgz pkg/v2_lvm_patch/
+cp -rf /mnt/v5.0 pkg/
+cp -rf /mnt/sfha-hpux1123-5.0MP2RP3-patches pkg/
+cp -rf /mnt/sfha605_path pkg/
+ls pkg/
+ll pkg/
+ls
+cd pkg/
+ls
+ll
+cd bash/
+ls
+cd ..
+ls
+ll /mnt/
+ll
+cd 
+cd /share
+ls
+history 
+ifconfig
+ls
+dpkg -l | grep ncurse
+cd ..
+ls
+cd ..
+ls
+cd space/config/initos/
+ls
+cd tmux/resurrect/pane_contents/
+ls
+cd ..
+ls
+cd pane_contents/
+ls
+cd ..
+ls
+cd ..
+ls
+cd pu
+cd plugins/
+ls
+cd tmux-resurrect/
+ls
+vi README.md 
+ls
+cd ..
+ls
+cd tmux-continuum/
+ls
+vi README.md 
+cd docs/
+ls
+cat automatic_start.md 
+ls
+vi automatic_start.md 
+ls
+cd ..
+cd docs/
+ls
+cat faq.md 
+cd ../../../
+ls
+cd ..
+ls
+cd
+sudo docker search python
+dpkg -l | grep -i ping
+dpkg -l | grep -i python
+sudo docker ps -l
+sudo docker ps 
+sudo docker ps -l
+sudo docker ps 
+sudo docker inspect 591
+sudo docker version
+ls -l  /etc/pki/tls/certs/
+tailf  /var/log/messages
+tailf /var/log/syslog
+date
+sudo ntpdate -s ntp.ubuntu.com
+date
+docker images
+sudo docker images
+cat /etc/default/docker 
+man apt-key 
+cat /etc/default/docker 
+tailf /var/log/syslog
+tailf  /var/log/messages
+vi /etc/default/docker 
+sudo vi /etc/default/docker 
+service docker restart
+sudo service docker restart
+sudo vi /etc/default/docker 
+sudo service docker restart
+sudo vi /etc/default/docker 
+sudo service docker restart
+sudo vi /etc/default/docker 
+sudo service docker restart
+sudo vi /etc/default/docker 
+sudo service docker restart
+sudo vi /etc/default/docker 
+sudo service docker restart
+sudo docker images
+sudo docker images --help
+sudo docker images -a
+sudo docker images --digests
+sudo docker images --no-trunc
+sudo docker
+sudo docker network
+ping get.docker.io
+sudo docker ps -a
+sudo docker ps -l
+sudo docker images
+vi /etc/default/ufw 
+sudo vi /etc/default/ufw 
+sudo ufw reload
+ls
+rm nctest 
+cd space/
+ls
+cd tmp/
+ls
+git clone https://github.com/docker-training/webapp.git
+cd webapp/
+ls
+cat README.md 
+cd webapp/
+ls
+cd ..
+ls
+cd
+docker import --help
+docker
+docker import 
+cd space/tmp/
+pwd
+ls
+cd webapp/
+ls
+pwcd
+pwd
+ls
+docker import
+ls
+cd ..
+ls
+git clone https://github.com/samalba/docker-registry-debug.git
+ls
+cd docker-registry-debug/
+ls
+cat Dockerfile 
+cat LICENSE 
+ls
+cat main.go 
+ls
+cd
+docker build
+docker build --help
+ls
+cat /space/tmp/webapp/Dockerfile 
+sudo docker ps
+cat /space/tmp/webapp/Dockerfile 
+sudo docker ps
+sudo docker stop prickly_wescoff
+sudo docker ps
+sudo docker start prickly_wescoff
+sudo docker ps
+sudo docker stop prickly_wescoff
+sudo docker rm prickly_wescoff
+sudo docker ps
+sudo docker stop modest_swartz
+sudo docker ps
+sudo docker ps -l
+sudo docker info
+sudo docker ps
+ping 172.17.0.2
+wget http://172.17.0.2
+cat index.html 
+wget http://172.17.0.2:8888
+cat index.html.1 
+ls
+rm index.html*
+ls
+wget http://172.17.0.2:8888/nodefind
+cat nodefind 
+ls
+rm nodefind 
+ssh root@172.17.0.2
+ssh-keygen -f "/home/jiadi/.ssh/known_hosts" -R 172.17.0.2
+ssh root@172.17.0.2
+sudo docker ps
+sudo docker images
+sudo docker run jiadi/ssh /usr/sbin/sshd
+sudo docker run -d yuejd/ssh /usr/sbin/ssh
+sudo docker run -d yuejd/ssh /usr/sbin/sshd
+sudo docker ps
+sudo docker ps -l
+sudo docker run -d yuejd/ssh /usr/sbin/sshd -d
+sudo docker ps -l
+sudo docker ps 
+ssh root@172.17.0.3
+sudo docker ps
+sudo docker ps -l
+ssh root@172.17.0.2
+ssh root@172.17.0.3
+ssh root@172.17.0.1
+ssh root@172.17.0.2
+sudo docker ps
+ssh root@172.17.0.2
+ssh-keygen -f "/home/jiadi/.ssh/known_hosts" -R 172.17.0.2
+ssh root@172.17.0.2
+sudo docker ps
+sudo docker images 
+sudo docker pull yuejd/tornado
+sudo docker push yuejd/tornado
