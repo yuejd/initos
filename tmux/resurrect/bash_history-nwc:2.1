@@ -1,51 +1,3 @@
-cd config/
-ls
-cd initos/
-ls
-vi os_packages
-ls
-echo "ctags" >> os_packages 
-echo "git" >> os_packages 
-echo "tmux" >> os_packages 
-echo "vim" >> os_packages 
-ls
-cat os_packages 
-vi os_packages 
-ls
-tmux ls
-tmux rename switch
-ls
-cd
-ls
-pwd
-ls
-cd space/
-ls
-mkdir emc
-cd emc
-ls
-mkdir project
-ls
-cd project/
-ls
-vi switches
-ls
-cat switches 
-vi switches
-cat switches | grep fid40
-vi switches 
-cat switches | grep fid40
-cat switches | grep fid5
-ssh user_platform@10.108.104.124
-cd
-ssh user_platform@10.108.104.124
-ssh user_vplexb@10.103.116.49
-ssh emc@10.108.104.13
-exit
-ls
-exit
-vi .tmux.conf 
-exit
 vi .tmux.conf 
 exit
 vi .tmux.conf 
@@ -998,3 +950,51 @@ git commit -m "add hp & aix"
 git status
 git push
 deactivate 
+ssh admin@10.103.116.37
+ls
+cd
+ls
+cd space/develop/
+ls
+cp ~/.ssh/id_rsa.pub ../emc/share/git/
+ssh git@10.103.118.135 -p 2222
+git clone ssh://git@10.103.118.135:2222/home/git/TA.git
+ls
+cd TA/
+ls
+cat README.md 
+ls
+cd
+ls
+cd space/emc/share/git/
+ls
+cd TA.git/
+ls
+cd branches/
+ls
+ls -a
+cd ..
+ls
+cd hooks/
+ls
+cd ..
+ls
+cd info/
+ls
+cd ..
+ls
+cd objects/
+ls
+cd ..
+cd
+ls
+cd space/emc/share/git/
+ls
+cd ..
+ls
+cd ..
+ls
+cd develop/
+ls
+cd TA/
+ls

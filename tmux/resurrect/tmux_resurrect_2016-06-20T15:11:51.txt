@@ -1,0 +1,178 @@
+pane	0	1	:bash	1	:*	1	:/home/jiadi	1	bash	:
+pane	backup	1	:root@lxh7ser8:~	0	:!-	1	:/home/jiadi	1	bash	:
+pane	backup	2	:root@lxh5ser3:~	1	:!*	1	:/home/jiadi	1	bash	:
+pane	daily	1	:bash	1	:*	1	:/home/jiadi	0	bash	:
+pane	daily	1	:bash	1	:*	2	:/home/jiadi	1	bash	:
+pane	daily	1	:bash	1	:*	3	:/home/jiadi/space/develop/nwc2	0	bash	:
+pane	daily	2	:bash	0	:-	1	:/home/jiadi	1	bash	:sudo python SimpleHTTPServerWithUpload.py 80
+pane	daily	3	:bash	0	:	1	:/home/jiadi/space/config/initos	1	bash	:
+pane	daily	4	:bash	0	:	1	:/home/jiadi/space/emc/share/hpux/pkg	1	bash	:
+pane	hp-hudson	1	:hpint179	0	:!	1	:/home/jiadi	1	bash	:
+pane	hp-hudson	1	:hpint179	0	:!	2	:/home/jiadi	0	bash	:
+pane	hp-hudson	2	:hpint180	0	:!	1	:/home/jiadi	1	bash	:
+pane	hp-hudson	2	:hpint180	0	:!	2	:/home/jiadi	0	bash	:
+pane	hp-hudson	3	:ssh	1	:!*	1	:/home/jiadi	1	bash	:
+pane	hp-hudson	4	:ssh	0	:!-	1	:/home/jiadi	1	bash	:
+pane	hp-hudson	5	:bash	0	:!	1	:/home/jiadi	1	bash	:
+pane	hp-hudson	8	:bash	0	:!	1	:/home/jiadi	1	bash	:
+pane	hp-rp	1	:hpint160	0	:!-	1	:/home/jiadi	1	ssh	:ssh root@10.108.178.160
+pane	hp-rp	1	:hpint160	0	:!-	2	:/home/jiadi	0	bash	:
+pane	hp-rp	2	:hpint072	1	:!*	1	:/home/jiadi	1	ssh	:ssh root@10.108.178.72
+pane	hp-rp	2	:hpint072	1	:!*	2	:/home/jiadi	0	bash	:
+pane	hp-rp	3	:sglhp113	0	:!	1	:/home/jiadi	1	bash	:
+pane	hp-rp	3	:sglhp113	0	:!	2	:/home/jiadi	0	bash	:
+pane	hp-rp	4	:sglhp115	0	:!	1	:/home/jiadi	0	bash	:
+pane	hp-rp	4	:sglhp115	0	:!	2	:/home/jiadi	1	bash	:
+pane	hp-rp	5	:sglhp123	0	:!	1	:/home/jiadi	0	bash	:
+pane	hp-rp	5	:sglhp123	0	:!	2	:/home/jiadi	1	bash	:
+pane	hp-rp	6	:ssh	0	:!	1	:/home/jiadi	1	bash	:
+pane	hp-vplex	1	:sglhp123	0	:!-	1	:/home/jiadi	1	ssh	:ssh root@10.103.118.123
+pane	hp-vplex	1	:sglhp123	0	:!-	2	:/home/jiadi	0	ssh	:ssh root@10.103.118.123
+pane	hp-vplex	2	:sglhp121	1	:!*	1	:/home/jiadi	1	ssh	:ssh root@10.103.118.121
+pane	hp-vplex	2	:sglhp121	1	:!*	2	:/home/jiadi	0	bash	:
+pane	hp-vplex	2	:sglhp121	1	:!*	3	:/home/jiadi	0	ssh	:ssh root@10.103.118.121
+pane	hp-vplex	2	:sglhp121	1	:!*	4	:/home/jiadi	0	bash	:
+pane	hp-vplex	3	:sglhp117	0	:!	1	:/home/jiadi	0	bash	:
+pane	hp-vplex	3	:sglhp117	0	:!	2	:/home/jiadi	1	ssh	:ssh root@10.103.118.117
+pane	hp-vplex	4	:sglhp119	0	:	1	:/home/jiadi	1	ssh	:ssh root@10.103.118.119
+pane	hp-vplex	4	:sglhp119	0	:	2	:/home/jiadi	0	ssh	:ssh root@10.103.118.119
+pane	hp-vplex	5	:hpint055	0	:!	1	:/home/jiadi	1	bash	:
+pane	hp-vplex	6	:hpint068	0	:!	1	:/home/jiadi	1	bash	:
+pane	hp-vplex	6	:hpint068	0	:!	2	:/home/jiadi	0	bash	:
+pane	hp-vplex	7	:hpint070	0	:!	1	:/home/jiadi	1	bash	:
+pane	hp-vplex	8	:hpint075	0	:!	1	:/home/jiadi	1	bash	:
+pane	hp-vplex	9	:113	0	:!	1	:/home/jiadi	1	bash	:
+pane	hp-vplex	10	:115	0	:!	1	:/home/jiadi	1	bash	:
+pane	nwc	1	:python	1	:*	1	:/home/jiadi/space/develop/nwc2/handlers	0	bash	:
+pane	nwc	1	:python	1	:*	2	:/home/jiadi/space/develop/nwc2/templates	0	bash	:
+pane	nwc	1	:python	1	:*	3	:/home/jiadi/space/develop/nwc2	1	bash	:
+pane	nwc	2	:bash	0	:!	1	:/home/jiadi/space/develop/fork/spring	1	bash	:
+pane	nwc	3	:ssh	0	:	1	:/home/jiadi/space/develop/spring	0	ssh	:ssh nwc@10.108.104.195
+pane	nwc	3	:ssh	0	:	2	:/home/jiadi/space/develop/spring	1	ssh	:ssh nwc@10.108.104.195
+pane	nwc	4	:python2.7	0	:-	1	:/home/jiadi/space/develop/nwc2/lib	1	bash	:
+pane	sles-hudson	1	:wnh4h11 	0	:!	1	:/home/jiadi	1	ssh	:ssh root@10.108.182.165
+pane	sles-hudson	1	:wnh4h11 	0	:!	2	:/home/jiadi	0	bash	:
+pane	sles-hudson	1	:wnh4h11 	0	:!	3	:/home/jiadi	0	bash	:
+pane	sles-hudson	2	:sgh28h16	0	:!	1	:/home/jiadi	1	ssh	:ssh root@10.103.117.106
+pane	sles-hudson	2	:sgh28h16	0	:!	2	:/home/jiadi	0	bash	:
+pane	sles-hudson	2	:sgh28h16	0	:!	3	:/home/jiadi	0	bash	:
+pane	sles-hudson	3	:lxh8ser4	0	:!	1	:/home/jiadi	1	bash	:
+pane	sles-hudson	3	:lxh8ser4	0	:!	2	:/home/jiadi	0	bash	:
+pane	sles-hudson	3	:lxh8ser4	0	:!	3	:/home/jiadi/space/emc/share/script	0	bash	:
+pane	sles-hudson	4	:lxh9ser3	0	:!	1	:/home/jiadi	1	bash	:
+pane	sles-hudson	4	:lxh9ser3	0	:!	2	:/home/jiadi	0	bash	:
+pane	sles-hudson	4	:lxh9ser3	0	:!	3	:/home/jiadi	0	bash	:
+pane	sles-hudson	5	:root@localhost:~	0	:!	1	:/home/jiadi	1	bash	:
+pane	sles-hudson	5	:root@localhost:~	0	:!	2	:/home/jiadi	0	bash	:
+pane	sles-hudson	6	:bash	0	:-	1	:/home/jiadi	1	bash	:
+pane	sles-hudson	7	:se	1	:*	1	:/home/jiadi	1	ssh	:ssh root@10.108.105.76
+pane	sles-hudson	7	:se	1	:*	2	:/home/jiadi	0	bash	:
+pane	sles-info	1	:root@durxHA236134:~	1	:*	1	:/home/jiadi	0	ssh	:ssh root@10.108.236.134
+pane	sles-info	1	:root@durxHA236134:~	1	:*	2	:/home/jiadi	1	ssh	:ssh root@10.108.236.134
+pane	sles-info	2	:root@durxHA236135:~	0	:!-	1	:/home/jiadi	1	ssh	:ssh root@10.108.236.135
+pane	sles-info	2	:root@durxHA236135:~	0	:!-	2	:/home/jiadi	0	bash	:
+pane	sles-info	3	:se	0	:!	1	:/home/jiadi	0	bash	:
+pane	sles-info	3	:se	0	:!	2	:/home/jiadi	1	ssh	:ssh root@10.108.239.239
+pane	sles-info	3	:se	0	:!	3	:/home/jiadi	0	ssh	:ssh root@10.108.239.239
+pane	sles-info	4	:ssh	0	:	1	:/home/jiadi	1	ssh	:ssh root@10.108.239.239
+pane	sles-info	5	:bash	0	:!	1	:/home/jiadi	1	bash	:
+pane	sles-ndm	1	:k41h3	1	:*	1	:/home/jiadi	0	ssh	:ssh root@10.246.51.166
+pane	sles-ndm	1	:k41h3	1	:*	2	:/home/jiadi	1	ssh	:ssh root@10.246.51.166
+pane	sles-ndm	1	:k41h3	1	:*	3	:/home/jiadi	0	ssh	:ssh root@10.246.51.166
+pane	sles-ndm	2	:k41h16	0	:-	1	:/home/jiadi	1	ssh	:ssh root@10.246.51.182
+pane	sles-ndm	2	:k41h16	0	:-	2	:/home/jiadi	0	ssh	:ssh root@10.246.51.182
+pane	sles-ndm	3	:ssh	0	:	1	:/home/jiadi	1	ssh	:ssh root@10.246.51.35
+pane	sles-ndm	4	:bash	0	:	1	:/home/jiadi	1	bash	:
+pane	sles-vplex	1	:lxh2ser5	0	:	1	:/home/jiadi	1	ssh	:ssh root@10.108.106.99
+pane	sles-vplex	1	:lxh2ser5	0	:	2	:/home/jiadi	0	bash	:
+pane	sles-vplex	1	:lxh2ser5	0	:	3	:/home/jiadi	0	bash	:
+pane	sles-vplex	2	:lxh8ser7	0	:	1	:/home/jiadi	1	ssh	:ssh root@10.108.106.66
+pane	sles-vplex	2	:lxh8ser7	0	:	2	:/home/jiadi	0	bash	:
+pane	sles-vplex	2	:lxh8ser7	0	:	3	:/home/jiadi	0	bash	:
+pane	sles-vplex	3	:root@pLinux119152:~	1	:*	1	:/home/jiadi	1	bash	:
+pane	sles-vplex	4	:root@lin106022:~	0	:-	1	:/home/jiadi	1	bash	:
+pane	sles-vplex	4	:root@lin106022:~	0	:-	2	:/home/jiadi	0	bash	:
+pane	sles-vplex	5	:bash	0	:!	1	:/home/jiadi	1	bash	:
+pane	switch	1	:fid40	0	:!	1	:/home/jiadi	1	bash	:
+pane	switch	2	:fid5	0	:!	1	:/home/jiadi	1	bash	:
+pane	switch	3	:fid10	0	:!	1	:/home/jiadi	1	bash	:
+pane	switch	4	:cd98	0	:!	1	:/home/jiadi	1	bash	:
+pane	switch	5	:hp100	0	:	1	:/home/jiadi	1	ssh	:ssh hp@10.108.179.33
+pane	switch	6	:cisco	0	:	1	:/home/jiadi	1	ssh	:ssh emc@10.108.104.13
+pane	switch	7	:swd77	0	:	1	:/home/jiadi	1	bash	:
+pane	switch	8	:swd78	0	:	1	:/home/jiadi	1	bash	:
+pane	switch	9	:fid101	1	:*	1	:/home/jiadi	1	ssh	:ssh emc@10.246.51.213
+pane	switch	9	:fid101	1	:*	2	:/home/jiadi	0	ssh	:ssh emc@10.246.51.213
+pane	switch	10	:bash	0	:-	1	:/home/jiadi	0	bash	:
+pane	switch	10	:bash	0	:-	2	:/home/jiadi	1	bash	:
+pane	switch	11	:bash	0	:	1	:/home/jiadi	1	bash	:
+pane	switch	12	:bash	0	:	1	:/home/jiadi	1	bash	:
+pane	switch	13	:bash	0	:	1	:/home/jiadi	1	bash	:
+window	0	1	1	:*	b61e,207x61,0,0,1
+window	backup	1	0	:!-	b620,207x61,0,0,3
+window	backup	2	1	:!*	b621,207x61,0,0,4
+window	daily	1	1	:*	43ee,207x61,0,0[207x24,0,0,5,207x36,0,25{123x36,0,25,6,83x36,124,25,7}]
+window	daily	2	0	:-	b625,207x61,0,0,8
+window	daily	3	0	:	b626,207x61,0,0,9
+window	daily	4	0	:	5b3f,207x61,0,0,10
+window	hp-hudson	1	0	:!	92d5,207x61,0,0{103x61,0,0,11,103x61,104,0,12}
+window	hp-hudson	2	0	:!	92d7,207x61,0,0{103x61,0,0,13,103x61,104,0,14}
+window	hp-hudson	3	1	:!*	5b44,207x61,0,0,15
+window	hp-hudson	4	0	:!-	5b45,207x61,0,0,16
+window	hp-hudson	5	0	:!	5b46,207x61,0,0,17
+window	hp-hudson	8	0	:!	5b47,207x61,0,0,18
+window	hp-rp	1	0	:!-	5cf9,207x61,0,0[207x28,0,0,19,207x32,0,29,20]
+window	hp-rp	2	1	:!*	b132,207x61,0,0[207x35,0,0,21,207x25,0,36,22]
+window	hp-rp	3	0	:!	5f35,207x61,0,0[207x39,0,0,23,207x21,0,40,24]
+window	hp-rp	4	0	:!	54f8,207x61,0,0[207x30,0,0,25,207x30,0,31,26]
+window	hp-rp	5	0	:!	5f3b,207x61,0,0[207x39,0,0,27,207x21,0,40,28]
+window	hp-rp	6	0	:!	db48,207x61,0,0,29
+window	hp-vplex	1	0	:!-	9f31,207x61,0,0[207x39,0,0,30,207x21,0,40,31]
+window	hp-vplex	2	1	:!*	710e,207x61,0,0[207x39,0,0{104x39,0,0,32,102x39,105,0,33},207x21,0,40{108x21,0,40,34,98x21,109,40,35}]
+window	hp-vplex	3	0	:!	94fa,207x61,0,0[207x30,0,0,36,207x30,0,31,37]
+window	hp-vplex	4	0	:	94fd,207x61,0,0[207x30,0,0,38,207x30,0,31,39]
+window	hp-vplex	5	0	:!	db40,207x61,0,0,40
+window	hp-vplex	6	0	:!	cc43,207x61,0,0{138x61,0,0,41,68x61,139,0,42}
+window	hp-vplex	7	0	:!	db43,207x61,0,0,43
+window	hp-vplex	8	0	:!	db44,207x61,0,0,44
+window	hp-vplex	9	0	:!	db45,207x61,0,0,45
+window	hp-vplex	10	0	:!	db46,207x61,0,0,46
+window	nwc	1	1	:*	8534,207x61,0,0[207x29,0,0,47,207x31,0,30{103x31,0,30,48,103x31,104,30,49}]
+window	nwc	2	0	:!	5b41,207x61,0,0,50
+window	nwc	3	0	:	e89b,207x61,0,0{94x61,0,0,51,112x61,95,0,52}
+window	nwc	4	0	:-	5b44,207x61,0,0,53
+window	sles-hudson	1	0	:!	2fdf,207x61,0,0{119x61,0,0,54,87x61,120,0[87x30,120,0,55,87x30,120,31,56]}
+window	sles-hudson	2	0	:!	c562,207x61,0,0{108x61,0,0,57,98x61,109,0[98x30,109,0,58,98x30,109,31,59]}
+window	sles-hudson	3	0	:!	6071,207x61,0,0{107x61,0,0,60,99x61,108,0[99x30,108,0,61,99x30,108,31,62]}
+window	sles-hudson	4	0	:!	dd7d,207x61,0,0{109x61,0,0,63,97x61,110,0[97x30,110,0,64,97x30,110,31,65]}
+window	sles-hudson	5	0	:!	12dd,207x61,0,0{103x61,0,0,66,103x61,104,0,67}
+window	sles-hudson	6	0	:-	db49,207x61,0,0,68
+window	sles-hudson	7	1	:*	52db,207x61,0,0{103x61,0,0,69,103x61,104,0,70}
+window	sles-info	1	1	:*	05f2,207x61,0,0{108x61,0,0,71,98x61,109,0,72}
+window	sles-info	2	0	:!-	f090,207x61,0,0{141x61,0,0,73,65x61,142,0,74}
+window	sles-info	3	0	:!	997d,207x61,0,0{66x61,0,0,75,140x61,67,0[140x35,67,0,76,140x25,67,36,77]}
+window	sles-info	4	0	:	5b4a,207x61,0,0,78
+window	sles-info	5	0	:!	5b4b,207x61,0,0,79
+window	sles-ndm	1	1	:*	ef04,207x61,0,0[207x39,0,0{103x39,0,0,80,103x39,104,0,121},207x21,0,40,81]
+window	sles-ndm	2	0	:-	5f38,207x61,0,0[207x39,0,0,82,207x21,0,40,83]
+window	sles-ndm	3	0	:	db46,207x61,0,0,84
+window	sles-ndm	4	0	:	db47,207x61,0,0,85
+window	sles-vplex	1	0	:	aec2,207x61,0,0{98x61,0,0,86,108x61,99,0[108x29,99,0,87,108x31,99,30,88]}
+window	sles-vplex	2	0	:	a931,207x61,0,0{119x61,0,0,89,87x61,120,0[87x29,120,0,90,87x31,120,30,91]}
+window	sles-vplex	3	1	:*	add0,207x61,0,0,120
+window	sles-vplex	4	0	:-	92da,207x61,0,0{103x61,0,0,92,103x61,104,0,93}
+window	sles-vplex	5	0	:!	add3,207x61,0,0,123
+window	switch	1	0	:!	5b47,207x61,0,0,94
+window	switch	2	0	:!	5b48,207x61,0,0,95
+window	switch	3	0	:!	5b49,207x61,0,0,96
+window	switch	4	0	:!	5b4a,207x61,0,0,97
+window	switch	5	0	:	5b4b,207x61,0,0,98
+window	switch	6	0	:	5b4c,207x61,0,0,99
+window	switch	7	0	:	adcf,207x61,0,0,100
+window	switch	8	0	:	add0,207x61,0,0,101
+window	switch	9	1	:*	725e,207x61,0,0{103x61,0,0,102,103x61,104,0,113}
+window	switch	10	0	:-	b25f,207x61,0,0{103x61,0,0,103,103x61,104,0,115}
+window	switch	11	0	:	add4,207x61,0,0,105
+window	switch	12	0	:	2dd4,207x61,0,0,114
+window	switch	13	0	:	2dd6,207x61,0,0,116
+state	switch	0

@@ -1,22 +1,3 @@
-lsvirtualenv 
-workon haha
-ipython
-deactivate 
-ls
-git clone https://github.com/humw/spring.git
-ls
-cd spring/
-ls
-git status
-git log
-git branch
-workon 
-workon haha
-git branch -a
-git checkout -b haha
-git branch 
-git branch -a
-ls
 python manage.py 
 pip install -r pip_freeze 
 cat /home/jiadi/.pip/pip.log 
@@ -998,3 +979,22 @@ ls /dev/
 mount /dev/sdb1 /home/jiadi/space/
 sudo mount /dev/sdb1 /home/jiadi/space/
 exit
+history | grep docker
+ls
+sudo docker ls
+sudo docker ps
+sudo docker images
+sudo docker run -it -p 8888 -v /space/develop/nwc2:/nwc2 yuejd/tornado python2 /nwc2/main.py
+sudo docker run -it -p 8888 -v /space/develop/nwc2:/nwc2 yuejd/tornado
+sudo docker ps
+sudo docker attach focused_elion
+sudo docker run -p 8888 -v /space/develop/nwc2:/nwc2 yuejd/tornado
+sudo docker run -it -p 8888 -v /space/develop/nwc2:/nwc2 /usr/sbin/sshd -d
+sudo docker run -it -p 8888 -v /space/develop/nwc2:/nwc2 bash
+sudo docker run -it -p 8888 -v /space/develop/nwc2:/nwc2 yuejd/tornado /usr/sbin/sshd -d
+ssh root@172.17.0.2
+sudo docker ps
+sudo docker images
+sudo docker run -it -p 8888 -v /space/develop/nwc2:/nwc2 yuejd/tornado bash
+sudo docker attach
+sudo docker attach furious_hawking
