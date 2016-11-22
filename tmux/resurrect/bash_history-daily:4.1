@@ -1,24 +1,4 @@
-cd tmp/
-ls
-pwd
-df
-wget https://github.com/tmux/tmux/releases/download/2.1/tmux-2.1.tar.gz
-ls
-dpkg -l | grep tmux
-sudo apt-get remove tmux
-tmux
-ls
-tar -zxvf tmux-2.1.tar.gz 
-cd tmux-2.1/
-ls
-./configure 
-sudo apt-get install libevent
-apt-cache search libevent
-dpkg -l | grep -i livevent
-dpkg -l | grep -i libevent
-dpkg --get-selections  | grep -i libevent
-cd ..
-ls
+history -r '/home/jiadi/.tmux/resurrect/bash_history-daily:4.1'; clear
 wget http://nchc.dl.sourceforge.net/project/levent/libevent/libevent-2.0/libevent-2.0.22-stable.tar.gz
 tar -zxvf libevent-2.0.22-stable.tar.gz 
 cd libevent-2.0.22-stable/
@@ -998,3 +978,23 @@ cd space/emc/share/hpux/pkg/
 ls
 cp ../../tmp/inq.hpux64 ./
 ls
+sudo apt-get update
+sudo apt-get upgrade
+pwc
+pwd
+cd
+sudo apt-get install samba
+sudo apt-get install smbfs
+sudo apt-get install cifs-utils
+sudo apt-get install samba-common
+ll /share
+ll /space
+sudo cp /etc/samba/smb.conf /etc/samba/smb.conf.bk
+sudo vim /etc/samba/smb.conf
+sudo smbpasswd -a jiadi
+sudo touch /etc/samba/smbpasswd
+sudo smbpasswd -a jiadi
+cat /etc/samba/smbpasswd 
+sudo service samba restart
+vi /etc/samba/smb.conf
+sudo service samba restart
